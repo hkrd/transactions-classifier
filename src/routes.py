@@ -1,11 +1,11 @@
 import io
 from fastapi import FastAPI, File, HTTPException, UploadFile
 import pandas as pd
-from classifier import Classifier
+from src.classifier import Classifier
 import logging
 import logging.config
 
-from models import GroupedTransactions, Transaction
+from src.models import GroupedTransactions, Transaction
 
 
 app = FastAPI()

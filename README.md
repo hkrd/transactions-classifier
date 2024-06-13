@@ -18,6 +18,6 @@ Groceries, Shopping, Building Improvement, Work, Utility Bills, Professional Ser
 
 - (optional) set limit to how many transactions get processed in `local.env`
 
-- run with `python routes.py`
+- run with `python src/routes.py`
 
 - access Swagger at `http://localhost:8000/docs`

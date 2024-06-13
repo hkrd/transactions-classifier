@@ -3,7 +3,7 @@ from typing import Any, Dict
 import openai
 import pandas as pd
 
-from models import Settings
+from src.models import Settings
 
 
 ZERO_SHOT_PROMPT = """
